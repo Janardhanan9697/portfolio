@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+*{
+    font-family: "Poppins", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+:root{
+    --bg-color: #1f242d;
+    --second-bg-color: #323946;
+    --main-color:  rgb(26, 224, 15) ;
+    --white-color:#fff;
+    --disabled-color:#fff3;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    color: var(--white-color);
+    background: var(--second-bg-color);
+}
+
+.heading {
+    text-align:center;
+    color: var(--main-color);
+    margin-top: 25px;
+    font-size: 35px;
+}
+
+.web {  
+    font-size: 20px;
+    justify-content:center;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.backend {  
+    font-size: 20px;
+    justify-content:center;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.backend h1 {
+    text-align:center;
+    color: var(--main-color);
+    margin-top: 25px;
+    font-size: 35px;   
+}
+
+.tech {
+    text-align:justify;
+    font-size: 20px;
+    justify-content:center;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.tech h1 {
+    text-align:center;
+    color: var(--main-color);
+    margin-top: 25px;
+    font-size: 35px;   
+}
+
+.lib {
+    text-align:justify;
+    font-size: 20px;
+    justify-content:center;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.lib h1 {
+    text-align:center;
+    color: var(--main-color);
+    margin-top: 25px;
+    font-size: 35px;   
+}
